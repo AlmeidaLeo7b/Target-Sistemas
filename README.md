@@ -41,3 +41,4 @@ Será 91, pois está somando todos os números inteiros entre 1 e 13, ou seja, 1
 
 ## 5) Escreva um programa que inverta os caracteres de um string.
 
+<a href="https://github.com/AlmeidaLeo7b/Target-Sistemas/tree/main/stringInversa" target="_blank"> Resolução Atividade 5</a>
