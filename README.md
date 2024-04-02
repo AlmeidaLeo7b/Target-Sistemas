@@ -37,7 +37,30 @@ Será 91, pois está somando todos os números inteiros entre 1 e 13, ou seja, 1
 `f) 2,10, 12, 16, 17, 18, 19`, 200 (Apenas números que começam coma  letra D)
 
 ## 4)  Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. 
-### Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+**Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?**
+**Resolução**
+
+<ol>
+<li> Primeira Ida</li>
+<p>
+   Ligo o primeiro interruptor e deixo ligado por 5 minutos, ou o suficiente para deixar a lâmpada quente, em seguida
+   desligo o primeiro interruptor 1 e ligo o segundo interruptor e me encaminho para as sala de lampada
+ 
+</p>
+<li> Segunda Ida</li>
+  <p> Verifico a lâmpada da primeira sala</p>
+  <ul> 
+    <li>Se a lâmpada estiver apagada e quente, ela pertence ao primeiro interruptor</li>
+    <li>Se a lâmpada estiver acessa, ela pertence ao segundo interruptor</li>
+    <li>Se a lâmpada estiver apagada e fria, ela pertence ao terceiro interruptor</li>
+</ul>
+ <p> Verifico a lâmpada da segunda sala</p>
+  <ul> 
+    <li>Se a lâmpada estiver apagada e quente, ela pertence ao primeiro interruptor</li>
+    <li>Se a lâmpada estiver acessa, ela pertence ao segundo interruptor</li>
+    <li>Se a lâmpada estiver apagada e fria, ela pertence ao terceiro interruptor</li>
+</ol>
+<p> Vale ressaltar, que essa lógica só se aplica caso as lâmpadas utilizadas não forem de LED</p>
 
 ## 5) Escreva um programa que inverta os caracteres de um string.
 
